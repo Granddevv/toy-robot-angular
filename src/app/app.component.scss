@@ -1,0 +1,67 @@
+.toy-bot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .place-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+
+    .bot-container {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .btn-group {
+    margin-left: 200px;
+    position: relative;
+
+    .btn {
+      width: 40px;
+      height: 40px;
+      background-color: hotpink;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      cursor: pointer;
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    }
+
+    .btn-top {
+      top: -60px;
+      left: -20px;
+    }
+
+    .btn-bottom {
+      top: 20px;
+      left: -20px;
+    }
+
+    .btn-right {
+      top: -20px;
+      left: 20px;
+    }
+
+    .btn-left {
+      top: -20px;
+      left: -60px;
+    }
+  }
+}

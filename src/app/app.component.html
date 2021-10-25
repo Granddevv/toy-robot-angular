@@ -1,0 +1,13 @@
+<div class="toy-bot-container">
+  <div class="place-container">
+    <div class="bot-container" style="{{ botStyle }}">
+      <img src="../assets/images/robot.png" />
+    </div>
+  </div>
+  <div class="btn-group">
+    <div class="btn-top btn" (click)="moveTop()">⇧</div>
+    <div class="btn-right btn" (click)="rotateRight()">⇨</div>
+    <div class="btn-bottom btn" (click)="moveBottom()">⇩</div>
+    <div class="btn-left btn" (click)="rotateLeft()">⇦</div>
+  </div>
+</div>
